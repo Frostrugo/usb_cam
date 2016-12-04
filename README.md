@@ -3,6 +3,8 @@ To lauch it, just type `roslaunch stereo_camera.launch` in the launch folder.
 
 You need to change the video device numbers. 
 
+You can find the video demo on https://youtu.be/5q56ukv1JnI
+
 And type `rosrun camera_calibration cameracalibrator.py --size 9x6 --square 0.108 right:=/stereo/right/image_raw left:=/stereo/left/image_raw right_camera:=/right left_camera:=/left --approximate=0.1` to calculate your own calibrations of your cameras.
 
 usb_cam [![Build Status](https://api.travis-ci.org/bosch-ros-pkg/usb_cam.png)](https://travis-ci.org/bosch-ros-pkg/usb_cam)
